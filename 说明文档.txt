@@ -1,0 +1,7 @@
+因为用到了部分ES6语法和jsx语法。所以用了webpack打包工具，配置信息在webpack.config.js文件中，Src文件夹中放着未打包的文件，build文件夹中放着打包后的文件
+1，新闻列表
+newsList文件夹中放着新闻列表页面，该页面具有上拉加载，下拉刷新的功能。将src文件夹中的newsList.js打包成build文件夹中的ListBundle.js文件。在newsList.html页面中引用的就是listBundle.js文件。newsList.js文件中的loadMoreLimitNum参数为最多可以加载新闻的次数，num参数为初始显示的新闻数目(在文件里也有注释)，newsList.json中存储的为各个新闻列表项的图片地址，标题和内容。newsDetailUrl.json中存储的为各个新闻详情页的地址。
+2，新闻详情页
+点击进入新闻详情页，newsDetail.json存储着该新闻详情页的标题，图片地址以及内容。comments.json存储着该新闻的评论信息。
+3，评论页面
+comments.json中存储着评论信息。若需要提交可以成功。要写服务端代码

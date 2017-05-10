@@ -1,0 +1,27 @@
+*{
+    margin:0;
+    padding:0;
+}
+.clearfix:after{
+    display:block;
+    content:'';
+    height:0;
+    visibility:hidden;
+    clear:both;
+}
+.content-box{
+    width:90%;
+    margin:0 auto;
+    height:150px;
+}
+.content-pic{
+    width:20%;
+    float:left;
+}
+.content-title{
+    font-size:1.2em;
+}
+.content-body{
+    font-size:0.9em;
+    color:#ccc;
+}
